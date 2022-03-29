@@ -1,0 +1,63 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 30%;
+  display: inline-block;
+  margin: 10px;
+}
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 100%;
+  /* object-fit: contain;
+  height: 90%; */
+  /* display: inline-block;
+  margin: 10px; */
+}
+
+.selectbox select.accordion_selectbox {
+  padding: 6px 17px;
+  width: 100%;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 5px;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.75);
+  max-width: 100%;
+  padding-right: 42px;
+  padding-right: 3;
+}
+.selectbox::after {
+  border: solid #000;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  position: absolute;
+  content: "";
+  right: 19px;
+  top: 2px;
+  user-select: none;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.inlinedata {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s; */
+  /* width: 30%; */
+  display: inline;
+  /* margin:10px; */
+}
